@@ -27,6 +27,7 @@ ext_ssh_authorized_key {"user1:ssh-dss:bar@example.org":
   key => "<user_key>",
   ensure => "present" # default in any case
 }
+```
 
 ## Contact
 Matteo Cerutti - matteo.cerutti@hotmail.co.uk
