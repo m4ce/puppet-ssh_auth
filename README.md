@@ -2,7 +2,7 @@
 
 This puppet module allows to easily manage your SSH pubic keys distribution across your Infrastructure.
 
-It has several advantages compared to the original ssh_authorized_key which comes with Puppet.
+It has several <b>advantages</b> compared to the original ssh_authorized_key which comes with Puppet.
 
 1. allows to distribute the same key to multiple users on the same node. The original ssh_authorized_key treats the comment as the resource namevar, hence if you need to distribute the same key to two different users on the same machine, it will error out saying that the resource already exists
 2. ssh public keys are stored in hiera
